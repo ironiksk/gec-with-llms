@@ -8,16 +8,22 @@ This work was done as a part of the research <a href="https://arxiv.org/abs/2404
 
 
 # Structure
-`finetuning` directory contain required code to reproduce Full and PERF finetuning setup. We use <a href="https://github.com/hiyouga/LLaMA-Factory/tree/main">[LLaMA-Factory] tool for model finetuning.
-`data` directory contain systems prediction on 3 main GEC benchmarks.
-`metrics` directory contain evaluation scripts used in the work. 
-`sampling` directory contains helper scrtips and notebooks for corrected texts sampling with pretrained model for DPO experiments.
-`zero-shot` directory contains notebooks for prompts evaluation in zero-shot setup.
 
+* `finetuning` directory contain required code to reproduce Full and PERF finetuning setup. We use [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/tree/main) tool for model finetuning.
+
+* `data` directory contain systems prediction on 3 main GEC benchmarks.
+
+* `metrics` directory contain evaluation scripts used in the work. 
+
+* `sampling` directory contains helper scrtips and notebooks for corrected texts sampling with pretrained model for DPO experiments.
+
+* `zero-shot` directory contains notebooks for prompts evaluation in zero-shot setup.
+
+
+## Pretrained models and results
 
 Table bellow contain single system scores and links to trained models available for download.  
 
-## Pretrained models and results
 <table>
   <tr>
     <th>Model name</th>
@@ -118,7 +124,7 @@ $M2_SCORER $PRED_FILE $M2_FILE >> {{reslut}}
 }
 ```
 
-<!-- ## Acknowledgement
+## Acknowledgement
 
 During this challenging time when Ukraine continues to resist the unprovoked Russian invasion, I am thankful to our communities and to everyone who defends our homeland, supports our people, and sends aid amidst the ongoing conflict.
 
@@ -126,5 +132,4 @@ I am grateful to my supervisor, Kostiantyn Omelianchuk, Grammarly and the team f
 
 I am also grateful to the Ukrainian Catholic University for their outstanding master’s program.
 
-This repo benefits from <a href="https://github.com/hiyouga/LLaMA-Factory/tree/main">[LLaMA-Factory], <a href="https://github.com/vllm-project/vllm">[vLLM]. 
- -->
+This repo benefits from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/tree/main), [vLLM](https://github.com/vllm-project/vllm). 
